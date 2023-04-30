@@ -1,0 +1,41 @@
+.Header {
+    display: flex;
+    align-items: center;
+    padding: 24px 162px;
+    background: #FFFFFF;
+    gap: 280px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;    
+    color: #232134;
+    gap: 12px;
+    padding: 3px 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navigation li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #232134;
+    transition: 0.3s ease all;
+}
+
+.navigation li a:hover {
+    color: #5E96FC;
+}
